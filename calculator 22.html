@@ -1,0 +1,43 @@
+<html>
+<body><body bgcolor="pink" aling="centre">
+<div class = "title" ><div style="color:white">
+<U>Example of Calculator using HTML</U></div>
+
+<table border="1">
+ <form name="Calculator" class = " calculator" >
+
+
+
+ <table border=2 aling="center"> <tr> <td colspan=4><input type="text" name="Input" id="display"></td></tr>
+
+<br>
+  <tr>
+<td><input type="button" name ="one" value=" 1 " Onclick="Calculator.Input.value += '1'"></td>
+  <td><input type="button" name ="two" value=" 2 " Onclick="Calculator.Input.value += '2'"></td>
+  <td><input type="button" name ="three" value=" 3 " Onclick="Calculator.Input.value += '3'"></td>
+  <td><input type="button" name ="add" value=" + " Onclick="Calculator.Input.value +=' + '"><br></td>
+</tr>
+<tr>
+ <td><input type="button" name ="four" value=" 4 " Onclick="Calculator.Input.value += '4'"></td>
+  <td><input type="button" name ="five" value=" 5 " Onclick="Calculator.Input.value += '5'"></td>
+  <td><input type="button" name ="six" value=" 6 " Onclick="Calculator.Input.value += '6'"></td>
+  <td><input type="button" name ="minus" value=" - " Onclick="Calculator.Input.value +=' - '"></td></tr><br>
+
+<tr>
+<td><input type="button" name ="seven" value=" 7 " Onclick="Calculator.Input.value += '7'"></td>
+ <td> <input type="button" name ="eight" value=" 8 " Onclick="Calculator.Input.value += '8'"></td>
+ <td> <input type="button" name ="nine" value=" 9 " Onclick="Calculator.Input.value += '9'"></td>
+  <td><input type="button" name ="mul" value=" * " Onclick="Calculator.Input.value +=' * '"></td></tr><br>
+
+
+<tr>
+  <td> <input type="button" name = "clear"  value=" c " OnClick="Calculator.Input.value = ''"></td>  
+  <td> <input type="button" name ="zero" value=" 0 " Onclick="Calculator.Input.value +=' 0 '"></td>
+
+<td><input type="button" name="DoIt" value=" = " OnClick="Calculator.Input.value = eval(Calculator.Input.value)"></td>
+<td><input type="button" name ="div" value=" / " Onclick="Calculator.Input.value +=' / '"></td></tr>
+</table>
+</form>  
+</body>  
+</html>   
+
